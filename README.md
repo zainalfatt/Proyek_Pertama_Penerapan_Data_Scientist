@@ -62,7 +62,7 @@ Link: https://lookerstudio.google.com/reporting/2e66e277-7364-4310-850f-94980e3a
 ## Menjalankan Sistem Machine Learning
 Langkah-langkah menggunakan sistem machine learning berbasis Extra Trees Classifier	adalah sebagai berikut.
 
-1. Membuka link 
+1. Membuka link: [https://proyekpertamapenerapandatascientist-tfu5teeltmgmxw4tdsbtfv.streamlit.app][website]
 
 2. Tampilan Awal
 <center><img src="image\tampilan_utama.png" alt="alt text" width="whatever" height="whatever"></center>
