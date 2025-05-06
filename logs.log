@@ -1,0 +1,1908 @@
+2025-04-24 10:36:02,553:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-24 10:36:02,553:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-24 10:36:02,553:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-24 10:36:02,553:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-29 17:07:17,753:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-29 17:07:17,753:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-29 17:07:17,753:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-29 17:07:17,753:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-04-29 17:20:39,128:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_8052\1146412998.py:18: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=dept_attr.index, y=dept_attr.values, palette=colors)
+
+2025-04-29 17:21:32,089:INFO:PyCaret ClassificationExperiment
+2025-04-29 17:21:32,089:INFO:Logging name: clf-default-name
+2025-04-29 17:21:32,089:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2025-04-29 17:21:32,089:INFO:version 3.0.4
+2025-04-29 17:21:32,089:INFO:Initializing setup()
+2025-04-29 17:21:32,089:INFO:self.USI: e4a5
+2025-04-29 17:21:32,089:INFO:self._variable_keys: {'seed', 'logging_param', '_ml_usecase', 'n_jobs_param', 'USI', 'gpu_param', 'fix_imbalance', 'fold_groups_param', 'idx', 'log_plots_param', 'exp_name_log', 'X', 'gpu_n_jobs_param', 'html_param', 'X_test', 'pipeline', 'y_train', 'X_train', 'target_param', 'is_multiclass', 'fold_shuffle_param', 'exp_id', 'memory', 'y_test', '_available_plots', 'data', 'fold_generator', 'y'}
+2025-04-29 17:21:32,089:INFO:Checking environment
+2025-04-29 17:21:32,089:INFO:python_version: 3.10.5
+2025-04-29 17:21:32,089:INFO:python_build: ('tags/v3.10.5:f377153', 'Jun  6 2022 16:14:13')
+2025-04-29 17:21:32,090:INFO:machine: AMD64
+2025-04-29 17:21:32,090:INFO:platform: Windows-10-10.0.26100-SP0
+2025-04-29 17:21:32,095:INFO:Memory: svmem(total=25042907136, available=12355420160, percent=50.7, used=12687486976, free=12355420160)
+2025-04-29 17:21:32,096:INFO:Physical Core: 6
+2025-04-29 17:21:32,096:INFO:Logical Core: 12
+2025-04-29 17:21:32,096:INFO:Checking libraries
+2025-04-29 17:21:32,096:INFO:System:
+2025-04-29 17:21:32,096:INFO:    python: 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)]
+2025-04-29 17:21:32,096:INFO:executable: C:\Users\zaina\AppData\Local\Programs\Python\Python310\python.exe
+2025-04-29 17:21:32,096:INFO:   machine: Windows-10-10.0.26100-SP0
+2025-04-29 17:21:32,096:INFO:PyCaret required dependencies:
+2025-04-29 17:21:32,168:INFO:                 pip: 25.0.1
+2025-04-29 17:21:32,170:INFO:          setuptools: 58.1.0
+2025-04-29 17:21:32,170:INFO:             pycaret: 3.0.4
+2025-04-29 17:21:32,170:INFO:             IPython: 8.29.0
+2025-04-29 17:21:32,170:INFO:          ipywidgets: 8.1.6
+2025-04-29 17:21:32,170:INFO:                tqdm: 4.67.1
+2025-04-29 17:21:32,170:INFO:               numpy: 1.23.5
+2025-04-29 17:21:32,170:INFO:              pandas: 1.5.3
+2025-04-29 17:21:32,170:INFO:              jinja2: 3.1.4
+2025-04-29 17:21:32,170:INFO:               scipy: 1.11.4
+2025-04-29 17:21:32,170:INFO:              joblib: 1.3.2
+2025-04-29 17:21:32,170:INFO:             sklearn: 1.2.2
+2025-04-29 17:21:32,170:INFO:                pyod: 2.0.4
+2025-04-29 17:21:32,170:INFO:            imblearn: 0.10.1
+2025-04-29 17:21:32,170:INFO:   category_encoders: 2.7.0
+2025-04-29 17:21:32,170:INFO:            lightgbm: 4.6.0
+2025-04-29 17:21:32,170:INFO:               numba: 0.60.0
+2025-04-29 17:21:32,170:INFO:            requests: 2.32.3
+2025-04-29 17:21:32,171:INFO:          matplotlib: 3.7.5
+2025-04-29 17:21:32,171:INFO:          scikitplot: 0.3.7
+2025-04-29 17:21:32,171:INFO:         yellowbrick: 1.5
+2025-04-29 17:21:32,171:INFO:              plotly: 5.24.1
+2025-04-29 17:21:32,171:INFO:    plotly-resampler: Not installed
+2025-04-29 17:21:32,171:INFO:             kaleido: 0.2.1
+2025-04-29 17:21:32,171:INFO:           schemdraw: 0.15
+2025-04-29 17:21:32,171:INFO:         statsmodels: 0.14.4
+2025-04-29 17:21:32,171:INFO:              sktime: 0.26.0
+2025-04-29 17:21:32,171:INFO:               tbats: 1.1.3
+2025-04-29 17:21:32,171:INFO:            pmdarima: 2.0.4
+2025-04-29 17:21:32,171:INFO:              psutil: 6.1.0
+2025-04-29 17:21:32,171:INFO:          markupsafe: 3.0.2
+2025-04-29 17:21:32,171:INFO:             pickle5: Not installed
+2025-04-29 17:21:32,171:INFO:         cloudpickle: 3.1.1
+2025-04-29 17:21:32,171:INFO:         deprecation: 2.1.0
+2025-04-29 17:21:32,171:INFO:              xxhash: 3.5.0
+2025-04-29 17:21:32,171:INFO:           wurlitzer: Not installed
+2025-04-29 17:21:32,171:INFO:PyCaret optional dependencies:
+2025-04-29 17:21:32,185:INFO:                shap: Not installed
+2025-04-29 17:21:32,185:INFO:           interpret: Not installed
+2025-04-29 17:21:32,185:INFO:                umap: Not installed
+2025-04-29 17:21:32,185:INFO:    pandas_profiling: Not installed
+2025-04-29 17:21:32,185:INFO:  explainerdashboard: Not installed
+2025-04-29 17:21:32,185:INFO:             autoviz: Not installed
+2025-04-29 17:21:32,185:INFO:           fairlearn: Not installed
+2025-04-29 17:21:32,185:INFO:          deepchecks: Not installed
+2025-04-29 17:21:32,185:INFO:             xgboost: 1.7.6
+2025-04-29 17:21:32,185:INFO:            catboost: Not installed
+2025-04-29 17:21:32,185:INFO:              kmodes: Not installed
+2025-04-29 17:21:32,185:INFO:             mlxtend: Not installed
+2025-04-29 17:21:32,185:INFO:       statsforecast: Not installed
+2025-04-29 17:21:32,185:INFO:        tune_sklearn: Not installed
+2025-04-29 17:21:32,185:INFO:                 ray: Not installed
+2025-04-29 17:21:32,185:INFO:            hyperopt: Not installed
+2025-04-29 17:21:32,185:INFO:              optuna: Not installed
+2025-04-29 17:21:32,185:INFO:               skopt: Not installed
+2025-04-29 17:21:32,185:INFO:              mlflow: Not installed
+2025-04-29 17:21:32,185:INFO:              gradio: Not installed
+2025-04-29 17:21:32,185:INFO:             fastapi: Not installed
+2025-04-29 17:21:32,185:INFO:             uvicorn: Not installed
+2025-04-29 17:21:32,185:INFO:              m2cgen: Not installed
+2025-04-29 17:21:32,185:INFO:           evidently: Not installed
+2025-04-29 17:21:32,185:INFO:               fugue: Not installed
+2025-04-29 17:21:32,185:INFO:           streamlit: 1.42.0
+2025-04-29 17:21:32,185:INFO:             prophet: Not installed
+2025-04-29 17:21:32,185:INFO:None
+2025-04-29 17:21:32,186:INFO:Set up data.
+2025-04-29 17:21:32,196:INFO:Set up train/test split.
+2025-04-29 17:21:32,200:INFO:Set up index.
+2025-04-29 17:21:32,200:INFO:Set up folding strategy.
+2025-04-29 17:21:32,200:INFO:Assigning column types.
+2025-04-29 17:21:32,203:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2025-04-29 17:21:32,248:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-29 17:21:32,261:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-04-29 17:21:32,296:INFO:Soft dependency imported: xgboost: 1.7.6
+2025-04-29 17:21:32,298:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-29 17:21:32,340:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2025-04-29 17:21:32,341:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-04-29 17:21:32,367:INFO:Soft dependency imported: xgboost: 1.7.6
+2025-04-29 17:21:32,369:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-29 17:21:32,369:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2025-04-29 17:21:32,411:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-04-29 17:21:32,438:INFO:Soft dependency imported: xgboost: 1.7.6
+2025-04-29 17:21:32,440:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-29 17:21:32,481:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2025-04-29 17:21:32,505:INFO:Soft dependency imported: xgboost: 1.7.6
+2025-04-29 17:21:32,506:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-29 17:21:32,506:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2025-04-29 17:21:32,582:INFO:Soft dependency imported: xgboost: 1.7.6
+2025-04-29 17:21:32,584:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-29 17:21:32,648:INFO:Soft dependency imported: xgboost: 1.7.6
+2025-04-29 17:21:32,650:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-29 17:21:32,661:INFO:Preparing preprocessing pipeline...
+2025-04-29 17:21:32,662:INFO:Set up simple imputation.
+2025-04-29 17:21:32,682:INFO:Finished creating preprocessing pipeline.
+2025-04-29 17:21:32,686:INFO:Pipeline: Pipeline(memory=FastMemory(location=C:\Users\zaina\AppData\Local\Temp\joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Age', 'BusinessTravel',
+                                             'DailyRate', 'Department',
+                                             'DistanceFromHome', 'Education',
+                                             'EducationField',
+                                             'EnvironmentSatisfaction',
+                                             'Gender', 'HourlyRate',
+                                             'JobInvolvement', 'JobLevel',
+                                             'JobRole', 'JobSatisfaction',
+                                             'Ma...
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='mean',
+                                                              verbose='deprecated'))),
+                ('categorical_imputer',
+                 TransformerWrapper(exclude=None, include=[],
+                                    transformer=SimpleImputer(add_indicator=False,
+                                                              copy=True,
+                                                              fill_value=None,
+                                                              keep_empty_features=False,
+                                                              missing_values=nan,
+                                                              strategy='most_frequent',
+                                                              verbose='deprecated')))],
+         verbose=False)
+2025-04-29 17:21:32,686:INFO:Creating final display dataframe.
+2025-04-29 17:21:32,741:INFO:Setup _display_container:                     Description             Value
+0                    Session id                42
+1                        Target         Attrition
+2                   Target type            Binary
+3           Original data shape         (828, 32)
+4        Transformed data shape         (828, 31)
+5   Transformed train set shape         (579, 31)
+6    Transformed test set shape         (249, 31)
+7               Ignore features                 1
+8              Numeric features                30
+9                    Preprocess              True
+10              Imputation type            simple
+11           Numeric imputation              mean
+12       Categorical imputation              mode
+13               Fold Generator   StratifiedKFold
+14                  Fold Number                10
+15                     CPU Jobs                -1
+16                      Use GPU             False
+17               Log Experiment             False
+18              Experiment Name  clf-default-name
+19                          USI              e4a5
+2025-04-29 17:21:32,808:INFO:Soft dependency imported: xgboost: 1.7.6
+2025-04-29 17:21:32,812:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-29 17:21:32,882:INFO:Soft dependency imported: xgboost: 1.7.6
+2025-04-29 17:21:32,884:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2025-04-29 17:21:32,884:INFO:setup() successfully completed in 2.44s...............
+2025-04-29 17:21:36,629:INFO:Initializing compare_models()
+2025-04-29 17:21:36,629:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, include=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, 'include': None, 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=None)
+2025-04-29 17:21:36,629:INFO:Checking exceptions
+2025-04-29 17:21:36,633:INFO:Preparing display monitor
+2025-04-29 17:21:36,656:INFO:Initializing Logistic Regression
+2025-04-29 17:21:36,657:INFO:Total runtime is 1.6721089680989585e-05 minutes
+2025-04-29 17:21:36,660:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:21:36,660:INFO:Initializing create_model()
+2025-04-29 17:21:36,660:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:21:36,661:INFO:Checking exceptions
+2025-04-29 17:21:36,661:INFO:Importing libraries
+2025-04-29 17:21:36,661:INFO:Copying training dataset
+2025-04-29 17:21:36,666:INFO:Defining folds
+2025-04-29 17:21:36,666:INFO:Declaring metric variables
+2025-04-29 17:21:36,669:INFO:Importing untrained model
+2025-04-29 17:21:36,673:INFO:Logistic Regression Imported successfully
+2025-04-29 17:21:36,679:INFO:Starting cross validation
+2025-04-29 17:21:36,680:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:22:01,846:INFO:Calculating mean and std
+2025-04-29 17:22:01,848:INFO:Creating metrics dataframe
+2025-04-29 17:22:03,763:INFO:Uploading results into container
+2025-04-29 17:22:03,764:INFO:Uploading model into container now
+2025-04-29 17:22:03,764:INFO:_master_model_container: 1
+2025-04-29 17:22:03,766:INFO:_display_container: 2
+2025-04-29 17:22:03,766:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=42, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2025-04-29 17:22:03,766:INFO:create_model() successfully completed......................................
+2025-04-29 17:22:03,975:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:22:03,975:INFO:Creating metrics dataframe
+2025-04-29 17:22:03,989:INFO:Initializing K Neighbors Classifier
+2025-04-29 17:22:03,990:INFO:Total runtime is 0.45556797583897907 minutes
+2025-04-29 17:22:03,997:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:22:03,998:INFO:Initializing create_model()
+2025-04-29 17:22:03,998:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=knn, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:22:03,998:INFO:Checking exceptions
+2025-04-29 17:22:03,998:INFO:Importing libraries
+2025-04-29 17:22:03,999:INFO:Copying training dataset
+2025-04-29 17:22:04,007:INFO:Defining folds
+2025-04-29 17:22:04,007:INFO:Declaring metric variables
+2025-04-29 17:22:04,014:INFO:Importing untrained model
+2025-04-29 17:22:04,021:INFO:K Neighbors Classifier Imported successfully
+2025-04-29 17:22:04,033:INFO:Starting cross validation
+2025-04-29 17:22:04,035:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:22:20,715:INFO:Calculating mean and std
+2025-04-29 17:22:20,717:INFO:Creating metrics dataframe
+2025-04-29 17:22:22,743:INFO:Uploading results into container
+2025-04-29 17:22:22,744:INFO:Uploading model into container now
+2025-04-29 17:22:22,745:INFO:_master_model_container: 2
+2025-04-29 17:22:22,745:INFO:_display_container: 2
+2025-04-29 17:22:22,745:INFO:KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+                     metric_params=None, n_jobs=-1, n_neighbors=5, p=2,
+                     weights='uniform')
+2025-04-29 17:22:22,747:INFO:create_model() successfully completed......................................
+2025-04-29 17:22:22,936:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:22:22,937:INFO:Creating metrics dataframe
+2025-04-29 17:22:22,954:INFO:Initializing Naive Bayes
+2025-04-29 17:22:22,955:INFO:Total runtime is 0.7716310302416484 minutes
+2025-04-29 17:22:22,961:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:22:22,961:INFO:Initializing create_model()
+2025-04-29 17:22:22,961:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=nb, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:22:22,963:INFO:Checking exceptions
+2025-04-29 17:22:22,963:INFO:Importing libraries
+2025-04-29 17:22:22,963:INFO:Copying training dataset
+2025-04-29 17:22:22,974:INFO:Defining folds
+2025-04-29 17:22:22,975:INFO:Declaring metric variables
+2025-04-29 17:22:22,982:INFO:Importing untrained model
+2025-04-29 17:22:22,987:INFO:Naive Bayes Imported successfully
+2025-04-29 17:22:23,001:INFO:Starting cross validation
+2025-04-29 17:22:23,002:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:22:40,881:INFO:Calculating mean and std
+2025-04-29 17:22:40,885:INFO:Creating metrics dataframe
+2025-04-29 17:22:42,615:INFO:Uploading results into container
+2025-04-29 17:22:42,617:INFO:Uploading model into container now
+2025-04-29 17:22:42,617:INFO:_master_model_container: 3
+2025-04-29 17:22:42,617:INFO:_display_container: 2
+2025-04-29 17:22:42,619:INFO:GaussianNB(priors=None, var_smoothing=1e-09)
+2025-04-29 17:22:42,619:INFO:create_model() successfully completed......................................
+2025-04-29 17:22:42,792:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:22:42,793:INFO:Creating metrics dataframe
+2025-04-29 17:22:42,812:INFO:Initializing Decision Tree Classifier
+2025-04-29 17:22:42,813:INFO:Total runtime is 1.102594248453776 minutes
+2025-04-29 17:22:42,818:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:22:42,819:INFO:Initializing create_model()
+2025-04-29 17:22:42,819:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=dt, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:22:42,819:INFO:Checking exceptions
+2025-04-29 17:22:42,820:INFO:Importing libraries
+2025-04-29 17:22:42,820:INFO:Copying training dataset
+2025-04-29 17:22:42,828:INFO:Defining folds
+2025-04-29 17:22:42,830:INFO:Declaring metric variables
+2025-04-29 17:22:42,839:INFO:Importing untrained model
+2025-04-29 17:22:42,847:INFO:Decision Tree Classifier Imported successfully
+2025-04-29 17:22:42,861:INFO:Starting cross validation
+2025-04-29 17:22:42,862:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:22:59,060:INFO:Calculating mean and std
+2025-04-29 17:22:59,063:INFO:Creating metrics dataframe
+2025-04-29 17:23:01,012:INFO:Uploading results into container
+2025-04-29 17:23:01,013:INFO:Uploading model into container now
+2025-04-29 17:23:01,014:INFO:_master_model_container: 4
+2025-04-29 17:23:01,014:INFO:_display_container: 2
+2025-04-29 17:23:01,014:INFO:DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
+                       max_depth=None, max_features=None, max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       random_state=42, splitter='best')
+2025-04-29 17:23:01,014:INFO:create_model() successfully completed......................................
+2025-04-29 17:23:01,193:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:23:01,193:INFO:Creating metrics dataframe
+2025-04-29 17:23:01,211:INFO:Initializing SVM - Linear Kernel
+2025-04-29 17:23:01,211:INFO:Total runtime is 1.4092427213986716 minutes
+2025-04-29 17:23:01,216:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:23:01,217:INFO:Initializing create_model()
+2025-04-29 17:23:01,217:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=svm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:23:01,217:INFO:Checking exceptions
+2025-04-29 17:23:01,218:INFO:Importing libraries
+2025-04-29 17:23:01,218:INFO:Copying training dataset
+2025-04-29 17:23:01,225:INFO:Defining folds
+2025-04-29 17:23:01,225:INFO:Declaring metric variables
+2025-04-29 17:23:01,231:INFO:Importing untrained model
+2025-04-29 17:23:01,236:INFO:SVM - Linear Kernel Imported successfully
+2025-04-29 17:23:01,246:INFO:Starting cross validation
+2025-04-29 17:23:01,247:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:23:01,375:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:01,394:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:01,395:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:01,404:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:01,407:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-04-29 17:23:01,417:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:01,420:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:01,428:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:01,438:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-04-29 17:23:01,437:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:01,440:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:01,448:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+2025-04-29 17:23:01,454:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\utils\_available_if.py", line 32, in __get__
+    if not self.check(obj):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\linear_model\_stochastic_gradient.py", line 1235, in _check_proba
+    raise AttributeError(
+AttributeError: probability estimates are not available for loss='hinge'
+
+  warnings.warn(
+
+2025-04-29 17:23:17,828:INFO:Calculating mean and std
+2025-04-29 17:23:17,832:INFO:Creating metrics dataframe
+2025-04-29 17:23:19,923:INFO:Uploading results into container
+2025-04-29 17:23:19,925:INFO:Uploading model into container now
+2025-04-29 17:23:19,926:INFO:_master_model_container: 5
+2025-04-29 17:23:19,926:INFO:_display_container: 2
+2025-04-29 17:23:19,927:INFO:SGDClassifier(alpha=0.0001, average=False, class_weight=None,
+              early_stopping=False, epsilon=0.1, eta0=0.001, fit_intercept=True,
+              l1_ratio=0.15, learning_rate='optimal', loss='hinge',
+              max_iter=1000, n_iter_no_change=5, n_jobs=-1, penalty='l2',
+              power_t=0.5, random_state=42, shuffle=True, tol=0.001,
+              validation_fraction=0.1, verbose=0, warm_start=False)
+2025-04-29 17:23:19,927:INFO:create_model() successfully completed......................................
+2025-04-29 17:23:20,127:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:23:20,127:INFO:Creating metrics dataframe
+2025-04-29 17:23:20,148:INFO:Initializing Ridge Classifier
+2025-04-29 17:23:20,149:INFO:Total runtime is 1.724870566527049 minutes
+2025-04-29 17:23:20,156:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:23:20,156:INFO:Initializing create_model()
+2025-04-29 17:23:20,156:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=ridge, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:23:20,157:INFO:Checking exceptions
+2025-04-29 17:23:20,157:INFO:Importing libraries
+2025-04-29 17:23:20,157:INFO:Copying training dataset
+2025-04-29 17:23:20,167:INFO:Defining folds
+2025-04-29 17:23:20,167:INFO:Declaring metric variables
+2025-04-29 17:23:20,175:INFO:Importing untrained model
+2025-04-29 17:23:20,181:INFO:Ridge Classifier Imported successfully
+2025-04-29 17:23:20,194:INFO:Starting cross validation
+2025-04-29 17:23:20,196:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:23:20,325:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:20,328:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:20,347:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:20,351:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:20,365:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:20,370:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:20,388:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:20,397:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:20,399:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:20,400:WARNING:C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py:138: FitFailedWarning: Metric 'make_scorer(roc_auc_score, needs_proba=True, error_score=0.0, average=weighted, multi_class=ovr)' failed and error score 0.0 has been returned instead. If this is a custom metric, this usually means that the error is in the metric code. Full exception below:
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 76, in _cached_call
+    return cache[method]
+KeyError: 'predict_proba'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\metrics.py", line 130, in _score
+    return super()._score(
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 316, in _score
+    y_pred = method_caller(clf, "predict_proba", X)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\sklearn\metrics\_scorer.py", line 78, in _cached_call
+    result = getattr(estimator, method)(*args, **kwargs)
+  File "C:\Users\zaina\AppData\Local\Programs\Python\Python310\lib\site-packages\pycaret\internal\pipeline.py", line 121, in __getattr__
+    return getattr(self._final_estimator, name)
+AttributeError: 'RidgeClassifier' object has no attribute 'predict_proba'
+
+  warnings.warn(
+
+2025-04-29 17:23:38,040:INFO:Calculating mean and std
+2025-04-29 17:23:38,043:INFO:Creating metrics dataframe
+2025-04-29 17:23:40,032:INFO:Uploading results into container
+2025-04-29 17:23:40,034:INFO:Uploading model into container now
+2025-04-29 17:23:40,034:INFO:_master_model_container: 6
+2025-04-29 17:23:40,034:INFO:_display_container: 2
+2025-04-29 17:23:40,035:INFO:RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+                max_iter=None, positive=False, random_state=42, solver='auto',
+                tol=0.0001)
+2025-04-29 17:23:40,035:INFO:create_model() successfully completed......................................
+2025-04-29 17:23:40,220:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:23:40,220:INFO:Creating metrics dataframe
+2025-04-29 17:23:40,248:INFO:Initializing Random Forest Classifier
+2025-04-29 17:23:40,248:INFO:Total runtime is 2.0598722020785014 minutes
+2025-04-29 17:23:40,255:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:23:40,255:INFO:Initializing create_model()
+2025-04-29 17:23:40,255:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=rf, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:23:40,255:INFO:Checking exceptions
+2025-04-29 17:23:40,256:INFO:Importing libraries
+2025-04-29 17:23:40,256:INFO:Copying training dataset
+2025-04-29 17:23:40,266:INFO:Defining folds
+2025-04-29 17:23:40,266:INFO:Declaring metric variables
+2025-04-29 17:23:40,274:INFO:Importing untrained model
+2025-04-29 17:23:40,287:INFO:Random Forest Classifier Imported successfully
+2025-04-29 17:23:40,300:INFO:Starting cross validation
+2025-04-29 17:23:40,301:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:23:51,603:INFO:Calculating mean and std
+2025-04-29 17:23:51,604:INFO:Creating metrics dataframe
+2025-04-29 17:23:52,815:INFO:Uploading results into container
+2025-04-29 17:23:52,816:INFO:Uploading model into container now
+2025-04-29 17:23:52,817:INFO:_master_model_container: 7
+2025-04-29 17:23:52,817:INFO:_display_container: 2
+2025-04-29 17:23:52,817:INFO:RandomForestClassifier(bootstrap=True, ccp_alpha=0.0, class_weight=None,
+                       criterion='gini', max_depth=None, max_features='sqrt',
+                       max_leaf_nodes=None, max_samples=None,
+                       min_impurity_decrease=0.0, min_samples_leaf=1,
+                       min_samples_split=2, min_weight_fraction_leaf=0.0,
+                       n_estimators=100, n_jobs=-1, oob_score=False,
+                       random_state=42, verbose=0, warm_start=False)
+2025-04-29 17:23:52,817:INFO:create_model() successfully completed......................................
+2025-04-29 17:23:52,943:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:23:52,943:INFO:Creating metrics dataframe
+2025-04-29 17:23:52,951:INFO:Initializing Quadratic Discriminant Analysis
+2025-04-29 17:23:52,951:INFO:Total runtime is 2.271588667233785 minutes
+2025-04-29 17:23:52,955:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:23:52,957:INFO:Initializing create_model()
+2025-04-29 17:23:52,957:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=qda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:23:52,957:INFO:Checking exceptions
+2025-04-29 17:23:52,957:INFO:Importing libraries
+2025-04-29 17:23:52,957:INFO:Copying training dataset
+2025-04-29 17:23:52,961:INFO:Defining folds
+2025-04-29 17:23:52,961:INFO:Declaring metric variables
+2025-04-29 17:23:52,964:INFO:Importing untrained model
+2025-04-29 17:23:52,969:INFO:Quadratic Discriminant Analysis Imported successfully
+2025-04-29 17:23:52,975:INFO:Starting cross validation
+2025-04-29 17:23:52,976:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:24:02,142:INFO:Calculating mean and std
+2025-04-29 17:24:02,143:INFO:Creating metrics dataframe
+2025-04-29 17:24:03,384:INFO:Uploading results into container
+2025-04-29 17:24:03,385:INFO:Uploading model into container now
+2025-04-29 17:24:03,386:INFO:_master_model_container: 8
+2025-04-29 17:24:03,386:INFO:_display_container: 2
+2025-04-29 17:24:03,386:INFO:QuadraticDiscriminantAnalysis(priors=None, reg_param=0.0,
+                              store_covariance=False, tol=0.0001)
+2025-04-29 17:24:03,386:INFO:create_model() successfully completed......................................
+2025-04-29 17:24:03,535:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:24:03,536:INFO:Creating metrics dataframe
+2025-04-29 17:24:03,549:INFO:Initializing Ada Boost Classifier
+2025-04-29 17:24:03,549:INFO:Total runtime is 2.448211979866028 minutes
+2025-04-29 17:24:03,553:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:24:03,553:INFO:Initializing create_model()
+2025-04-29 17:24:03,553:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=ada, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:24:03,553:INFO:Checking exceptions
+2025-04-29 17:24:03,553:INFO:Importing libraries
+2025-04-29 17:24:03,553:INFO:Copying training dataset
+2025-04-29 17:24:03,557:INFO:Defining folds
+2025-04-29 17:24:03,558:INFO:Declaring metric variables
+2025-04-29 17:24:03,562:INFO:Importing untrained model
+2025-04-29 17:24:03,565:INFO:Ada Boost Classifier Imported successfully
+2025-04-29 17:24:03,571:INFO:Starting cross validation
+2025-04-29 17:24:03,572:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:24:14,347:INFO:Calculating mean and std
+2025-04-29 17:24:14,348:INFO:Creating metrics dataframe
+2025-04-29 17:24:15,618:INFO:Uploading results into container
+2025-04-29 17:24:15,619:INFO:Uploading model into container now
+2025-04-29 17:24:15,619:INFO:_master_model_container: 9
+2025-04-29 17:24:15,619:INFO:_display_container: 2
+2025-04-29 17:24:15,621:INFO:AdaBoostClassifier(algorithm='SAMME.R', base_estimator='deprecated',
+                   estimator=None, learning_rate=1.0, n_estimators=50,
+                   random_state=42)
+2025-04-29 17:24:15,621:INFO:create_model() successfully completed......................................
+2025-04-29 17:24:15,790:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:24:15,791:INFO:Creating metrics dataframe
+2025-04-29 17:24:15,805:INFO:Initializing Gradient Boosting Classifier
+2025-04-29 17:24:15,805:INFO:Total runtime is 2.6524798830350242 minutes
+2025-04-29 17:24:15,809:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:24:15,809:INFO:Initializing create_model()
+2025-04-29 17:24:15,809:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=gbc, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:24:15,809:INFO:Checking exceptions
+2025-04-29 17:24:15,809:INFO:Importing libraries
+2025-04-29 17:24:15,809:INFO:Copying training dataset
+2025-04-29 17:24:15,815:INFO:Defining folds
+2025-04-29 17:24:15,815:INFO:Declaring metric variables
+2025-04-29 17:24:15,820:INFO:Importing untrained model
+2025-04-29 17:24:15,823:INFO:Gradient Boosting Classifier Imported successfully
+2025-04-29 17:24:15,832:INFO:Starting cross validation
+2025-04-29 17:24:15,833:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:24:26,291:INFO:Calculating mean and std
+2025-04-29 17:24:26,292:INFO:Creating metrics dataframe
+2025-04-29 17:24:27,524:INFO:Uploading results into container
+2025-04-29 17:24:27,525:INFO:Uploading model into container now
+2025-04-29 17:24:27,525:INFO:_master_model_container: 10
+2025-04-29 17:24:27,525:INFO:_display_container: 2
+2025-04-29 17:24:27,527:INFO:GradientBoostingClassifier(ccp_alpha=0.0, criterion='friedman_mse', init=None,
+                           learning_rate=0.1, loss='log_loss', max_depth=3,
+                           max_features=None, max_leaf_nodes=None,
+                           min_impurity_decrease=0.0, min_samples_leaf=1,
+                           min_samples_split=2, min_weight_fraction_leaf=0.0,
+                           n_estimators=100, n_iter_no_change=None,
+                           random_state=42, subsample=1.0, tol=0.0001,
+                           validation_fraction=0.1, verbose=0,
+                           warm_start=False)
+2025-04-29 17:24:27,527:INFO:create_model() successfully completed......................................
+2025-04-29 17:24:27,665:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:24:27,665:INFO:Creating metrics dataframe
+2025-04-29 17:24:27,679:INFO:Initializing Linear Discriminant Analysis
+2025-04-29 17:24:27,679:INFO:Total runtime is 2.8503892302513125 minutes
+2025-04-29 17:24:27,683:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:24:27,683:INFO:Initializing create_model()
+2025-04-29 17:24:27,683:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=lda, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:24:27,683:INFO:Checking exceptions
+2025-04-29 17:24:27,683:INFO:Importing libraries
+2025-04-29 17:24:27,683:INFO:Copying training dataset
+2025-04-29 17:24:27,689:INFO:Defining folds
+2025-04-29 17:24:27,689:INFO:Declaring metric variables
+2025-04-29 17:24:27,691:INFO:Importing untrained model
+2025-04-29 17:24:27,695:INFO:Linear Discriminant Analysis Imported successfully
+2025-04-29 17:24:27,702:INFO:Starting cross validation
+2025-04-29 17:24:27,703:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:24:37,154:INFO:Calculating mean and std
+2025-04-29 17:24:37,156:INFO:Creating metrics dataframe
+2025-04-29 17:24:38,347:INFO:Uploading results into container
+2025-04-29 17:24:38,347:INFO:Uploading model into container now
+2025-04-29 17:24:38,348:INFO:_master_model_container: 11
+2025-04-29 17:24:38,348:INFO:_display_container: 2
+2025-04-29 17:24:38,348:INFO:LinearDiscriminantAnalysis(covariance_estimator=None, n_components=None,
+                           priors=None, shrinkage=None, solver='svd',
+                           store_covariance=False, tol=0.0001)
+2025-04-29 17:24:38,349:INFO:create_model() successfully completed......................................
+2025-04-29 17:24:38,482:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:24:38,482:INFO:Creating metrics dataframe
+2025-04-29 17:24:38,494:INFO:Initializing Extra Trees Classifier
+2025-04-29 17:24:38,496:INFO:Total runtime is 3.0306597312291466 minutes
+2025-04-29 17:24:38,499:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:24:38,499:INFO:Initializing create_model()
+2025-04-29 17:24:38,499:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=et, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:24:38,499:INFO:Checking exceptions
+2025-04-29 17:24:38,500:INFO:Importing libraries
+2025-04-29 17:24:38,500:INFO:Copying training dataset
+2025-04-29 17:24:38,504:INFO:Defining folds
+2025-04-29 17:24:38,505:INFO:Declaring metric variables
+2025-04-29 17:24:38,508:INFO:Importing untrained model
+2025-04-29 17:24:38,513:INFO:Extra Trees Classifier Imported successfully
+2025-04-29 17:24:38,519:INFO:Starting cross validation
+2025-04-29 17:24:38,520:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:24:48,586:INFO:Calculating mean and std
+2025-04-29 17:24:48,587:INFO:Creating metrics dataframe
+2025-04-29 17:24:49,793:INFO:Uploading results into container
+2025-04-29 17:24:49,793:INFO:Uploading model into container now
+2025-04-29 17:24:49,794:INFO:_master_model_container: 12
+2025-04-29 17:24:49,794:INFO:_display_container: 2
+2025-04-29 17:24:49,795:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False)
+2025-04-29 17:24:49,795:INFO:create_model() successfully completed......................................
+2025-04-29 17:24:49,938:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:24:49,938:INFO:Creating metrics dataframe
+2025-04-29 17:24:49,950:INFO:Initializing Extreme Gradient Boosting
+2025-04-29 17:24:49,951:INFO:Total runtime is 3.221588162581126 minutes
+2025-04-29 17:24:49,955:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:24:49,955:INFO:Initializing create_model()
+2025-04-29 17:24:49,955:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=xgboost, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:24:49,955:INFO:Checking exceptions
+2025-04-29 17:24:49,955:INFO:Importing libraries
+2025-04-29 17:24:49,955:INFO:Copying training dataset
+2025-04-29 17:24:49,961:INFO:Defining folds
+2025-04-29 17:24:49,961:INFO:Declaring metric variables
+2025-04-29 17:24:49,965:INFO:Importing untrained model
+2025-04-29 17:24:49,969:INFO:Extreme Gradient Boosting Imported successfully
+2025-04-29 17:24:49,976:INFO:Starting cross validation
+2025-04-29 17:24:49,977:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:25:01,068:INFO:Calculating mean and std
+2025-04-29 17:25:01,070:INFO:Creating metrics dataframe
+2025-04-29 17:25:02,262:INFO:Uploading results into container
+2025-04-29 17:25:02,263:INFO:Uploading model into container now
+2025-04-29 17:25:02,263:INFO:_master_model_container: 13
+2025-04-29 17:25:02,263:INFO:_display_container: 2
+2025-04-29 17:25:02,264:INFO:XGBClassifier(base_score=None, booster='gbtree', callbacks=None,
+              colsample_bylevel=None, colsample_bynode=None,
+              colsample_bytree=None, early_stopping_rounds=None,
+              enable_categorical=False, eval_metric=None, feature_types=None,
+              gamma=None, gpu_id=None, grow_policy=None, importance_type=None,
+              interaction_constraints=None, learning_rate=None, max_bin=None,
+              max_cat_threshold=None, max_cat_to_onehot=None,
+              max_delta_step=None, max_depth=None, max_leaves=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=-1, num_parallel_tree=None,
+              objective='binary:logistic', predictor=None, ...)
+2025-04-29 17:25:02,264:INFO:create_model() successfully completed......................................
+2025-04-29 17:25:02,388:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:25:02,388:INFO:Creating metrics dataframe
+2025-04-29 17:25:02,400:INFO:Initializing Light Gradient Boosting Machine
+2025-04-29 17:25:02,400:INFO:Total runtime is 3.429068624973297 minutes
+2025-04-29 17:25:02,404:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:25:02,404:INFO:Initializing create_model()
+2025-04-29 17:25:02,404:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=lightgbm, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:25:02,404:INFO:Checking exceptions
+2025-04-29 17:25:02,404:INFO:Importing libraries
+2025-04-29 17:25:02,404:INFO:Copying training dataset
+2025-04-29 17:25:02,409:INFO:Defining folds
+2025-04-29 17:25:02,409:INFO:Declaring metric variables
+2025-04-29 17:25:02,412:INFO:Importing untrained model
+2025-04-29 17:25:02,416:INFO:Light Gradient Boosting Machine Imported successfully
+2025-04-29 17:25:02,421:INFO:Starting cross validation
+2025-04-29 17:25:02,422:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:25:12,744:INFO:Calculating mean and std
+2025-04-29 17:25:12,745:INFO:Creating metrics dataframe
+2025-04-29 17:25:13,928:INFO:Uploading results into container
+2025-04-29 17:25:13,929:INFO:Uploading model into container now
+2025-04-29 17:25:13,929:INFO:_master_model_container: 14
+2025-04-29 17:25:13,930:INFO:_display_container: 2
+2025-04-29 17:25:13,930:INFO:LGBMClassifier(boosting_type='gbdt', class_weight=None, colsample_bytree=1.0,
+               importance_type='split', learning_rate=0.1, max_depth=-1,
+               min_child_samples=20, min_child_weight=0.001, min_split_gain=0.0,
+               n_estimators=100, n_jobs=-1, num_leaves=31, objective=None,
+               random_state=42, reg_alpha=0.0, reg_lambda=0.0, subsample=1.0,
+               subsample_for_bin=200000, subsample_freq=0)
+2025-04-29 17:25:13,931:INFO:create_model() successfully completed......................................
+2025-04-29 17:25:14,078:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:25:14,078:INFO:Creating metrics dataframe
+2025-04-29 17:25:14,093:INFO:Initializing Dummy Classifier
+2025-04-29 17:25:14,093:INFO:Total runtime is 3.62394863764445 minutes
+2025-04-29 17:25:14,097:INFO:SubProcess create_model() called ==================================
+2025-04-29 17:25:14,097:INFO:Initializing create_model()
+2025-04-29 17:25:14,097:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=dummy, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x000001563206AB30>, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:25:14,097:INFO:Checking exceptions
+2025-04-29 17:25:14,097:INFO:Importing libraries
+2025-04-29 17:25:14,097:INFO:Copying training dataset
+2025-04-29 17:25:14,102:INFO:Defining folds
+2025-04-29 17:25:14,102:INFO:Declaring metric variables
+2025-04-29 17:25:14,107:INFO:Importing untrained model
+2025-04-29 17:25:14,111:INFO:Dummy Classifier Imported successfully
+2025-04-29 17:25:14,117:INFO:Starting cross validation
+2025-04-29 17:25:14,119:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2025-04-29 17:25:23,299:INFO:Calculating mean and std
+2025-04-29 17:25:23,300:INFO:Creating metrics dataframe
+2025-04-29 17:25:24,502:INFO:Uploading results into container
+2025-04-29 17:25:24,504:INFO:Uploading model into container now
+2025-04-29 17:25:24,504:INFO:_master_model_container: 15
+2025-04-29 17:25:24,504:INFO:_display_container: 2
+2025-04-29 17:25:24,504:INFO:DummyClassifier(constant=None, random_state=42, strategy='prior')
+2025-04-29 17:25:24,505:INFO:create_model() successfully completed......................................
+2025-04-29 17:25:24,639:INFO:SubProcess create_model() end ==================================
+2025-04-29 17:25:24,639:INFO:Creating metrics dataframe
+2025-04-29 17:25:24,661:INFO:Initializing create_model()
+2025-04-29 17:25:24,661:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False), fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2025-04-29 17:25:24,662:INFO:Checking exceptions
+2025-04-29 17:25:24,663:INFO:Importing libraries
+2025-04-29 17:25:24,663:INFO:Copying training dataset
+2025-04-29 17:25:24,666:INFO:Defining folds
+2025-04-29 17:25:24,666:INFO:Declaring metric variables
+2025-04-29 17:25:24,666:INFO:Importing untrained model
+2025-04-29 17:25:24,666:INFO:Declaring custom model
+2025-04-29 17:25:24,667:INFO:Extra Trees Classifier Imported successfully
+2025-04-29 17:25:24,669:INFO:Cross validation set to False
+2025-04-29 17:25:24,669:INFO:Fitting Model
+2025-04-29 17:25:25,639:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False)
+2025-04-29 17:25:25,639:INFO:create_model() successfully completed......................................
+2025-04-29 17:25:25,804:INFO:_master_model_container: 15
+2025-04-29 17:25:25,804:INFO:_display_container: 2
+2025-04-29 17:25:25,804:INFO:ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False)
+2025-04-29 17:25:25,804:INFO:compare_models() successfully completed......................................
+2025-04-29 17:25:25,813:INFO:Initializing evaluate_model()
+2025-04-29 17:25:25,813:INFO:evaluate_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2025-04-29 17:25:25,826:INFO:Initializing plot_model()
+2025-04-29 17:25:25,826:INFO:plot_model(plot=pipeline, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), verbose=False, display=None, display_format=None, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='sqrt',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False), feature_name=None, fit_kwargs={}, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.classification.oop.ClassificationExperiment object at 0x0000015633C690C0>, system=True)
+2025-04-29 17:25:25,826:INFO:Checking exceptions
+2025-04-29 17:25:25,854:INFO:Preloading libraries
+2025-04-29 17:25:25,864:INFO:Copying training dataset
+2025-04-29 17:25:25,865:INFO:Plot type: pipeline
+2025-04-29 17:25:26,060:INFO:Visual Rendered Successfully
+2025-04-29 17:25:26,193:INFO:plot_model() successfully completed......................................
+2025-05-02 21:42:11,561:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-02 21:42:11,562:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-02 21:42:11,562:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-02 21:42:11,562:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-02 21:44:38,244:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-02 21:44:38,244:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-02 21:44:38,244:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-02 21:44:38,244:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 19:59:05,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 19:59:05,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 19:59:05,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 19:59:05,085:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 20:38:35,753:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1754557710.py:17: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:38:35,808:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1754557710.py:17: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:38:35,846:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1754557710.py:17: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:38:35,901:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1754557710.py:17: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:38:35,938:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1754557710.py:17: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:38:35,995:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1754557710.py:17: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:38:36,030:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1754557710.py:17: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:42:19,016:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2477918723.py:5: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:42:19,059:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2477918723.py:5: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:42:19,095:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2477918723.py:5: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:42:19,140:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2477918723.py:5: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:42:19,167:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2477918723.py:5: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:42:19,219:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2477918723.py:5: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:42:19,252:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2477918723.py:5: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette='viridis')
+
+2025-05-06 20:46:00,225:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,226:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,270:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,271:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,454:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,456:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,500:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,501:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,529:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,530:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,583:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,584:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,618:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:46:00,618:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1573896821.py:10: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,239:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,241:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,308:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,309:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,340:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,341:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,382:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,383:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,408:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,410:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,459:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,459:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,497:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:49:03,498:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2217858588.py:12: UserWarning: Numpy array is not a supported type for `palette`. Please convert your palette to a list. This will become an error in v0.14
+  sns.countplot(x=col, data=df, palette=colors)
+
+2025-05-06 20:55:14,906:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:14,952:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:14,987:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:15,034:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:15,059:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:15,111:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:15,141:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:52,563:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1110841769.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:52,593:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1110841769.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:52,622:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1110841769.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:52,668:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1110841769.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:52,693:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1110841769.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:52,744:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1110841769.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:55:52,775:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1110841769.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:04,371:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1544333390.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:04,417:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1544333390.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:04,454:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1544333390.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:04,500:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1544333390.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:04,527:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1544333390.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:04,576:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1544333390.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:04,608:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1544333390.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:17,725:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:17,791:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:17,825:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:17,866:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:17,892:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:17,943:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:17,974:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\542882808.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:42,978:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\4238233947.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:43,052:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\4238233947.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:43,091:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\4238233947.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:43,131:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\4238233947.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:43,158:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\4238233947.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:43,341:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\4238233947.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:56:43,371:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\4238233947.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:58:31,537:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\958861718.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 20:59:18,320:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\4154547570.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:00:29,277:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\398833951.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:00:52,627:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\398833951.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:00:52,669:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\398833951.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:00:52,707:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\398833951.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:00:52,752:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\398833951.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:00:52,781:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\398833951.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:00:52,832:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\398833951.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:00:52,867:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\398833951.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:07,365:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1449869578.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:07,415:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1449869578.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:07,452:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1449869578.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:07,498:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1449869578.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:07,524:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1449869578.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:07,576:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1449869578.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:07,608:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1449869578.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:40,448:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1346425517.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:40,495:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1346425517.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:40,529:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1346425517.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:40,575:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1346425517.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:40,601:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1346425517.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:40,654:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1346425517.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:01:40,687:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1346425517.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:02:08,734:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2769260963.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:02:08,775:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2769260963.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:02:08,977:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2769260963.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:02:09,021:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2769260963.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:02:09,047:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2769260963.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:02:09,106:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2769260963.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:02:09,139:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2769260963.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:30:13,496:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:30:13,541:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:30:13,577:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:30:13,624:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:30:13,652:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:30:13,708:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:30:13,745:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 21:37:33,013:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\1146412998.py:18: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=dept_attr.index, y=dept_attr.values, palette=colors)
+
+2025-05-06 22:06:19,069:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\899868658.py:6: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=feat_imp, y=feat_imp.index, palette="crest")
+
+2025-05-06 22:07:22,306:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_29500\2609920304.py:6: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=feat_imp, y=feat_imp.index, palette="crest")
+
+2025-05-06 22:28:29,318:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 22:28:29,319:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 22:28:29,319:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 22:28:29,319:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-06 22:28:34,384:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_22868\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 22:28:34,427:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_22868\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 22:28:34,470:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_22868\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 22:28:34,532:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_22868\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 22:28:34,576:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_22868\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 22:28:34,655:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_22868\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 22:28:34,699:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_22868\2672927805.py:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.countplot(x=col, data=df, order=categories, palette=colors)
+
+2025-05-06 22:28:42,532:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_22868\1146412998.py:18: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=dept_attr.index, y=dept_attr.values, palette=colors)
+
+2025-05-06 22:29:07,840:WARNING:C:\Users\zaina\AppData\Local\Temp\ipykernel_22868\2609920304.py:6: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=feat_imp, y=feat_imp.index, palette="crest")
+
